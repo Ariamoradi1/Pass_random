@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<body>
+<h2 onclick="clickme()">!برای پسوورد کلیک کنید</h2>
+
+
+
+</body>
+<script>
+
+function clickme(){
+    
+    var passRandom=Math.random().toString(36).slice(2) + Math.random().toString(36).slice(2).toUpperCase();
+    document.querySelector("h2").innerHTML=passRandom;
+    
+    
+}
+
+
+</script>
+</html>
